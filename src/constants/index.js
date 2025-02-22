@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  " 24/7 Trading Support",
+  "Multi-Asset Support",
+  "Mobile & Web Compatibility",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +94,52 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "API Integration",
+    text: "Enable access to external data sources, such as real-time price feeds, blockchain analytics, and market sentiment analysis.",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Improved Trade Execution",
+    text: "Enhance order placement with faster execution and real-time market updates for a smoother trading experience.",
+    status: "done",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Custom Trading Dashboard",
+    text: "Allow users to personalize their trading interface with customizable chart indicators, alerts, and news feeds.",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "User Account & Trading Access",
+    text: "Enable users to securely log in, access their trading dashboard, and execute trades seamlessly within the platform.",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Whether you're a beginner or a pro, our secure trading environment and automation tools help you stay ahead in the crypto market.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Trading",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Real-Time Market Insights",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Effortless Asset Managemen",
   },
 ];
 
@@ -151,22 +148,22 @@ export const collabApps = [
     id: "0",
     title: "Figma",
     icon: figma,
-    width: 26,
-    height: 36,
+    width: 40,
+    height: 40,
   },
   {
     id: "1",
     title: "Notion",
     icon: notion,
-    width: 34,
-    height: 36,
+    width: 45,
+    height: 42,
   },
   {
     id: "2",
     title: "Discord",
     icon: discord,
-    width: 36,
-    height: 28,
+    width: 40,
+    height: 40,
   },
   {
     id: "3",
@@ -179,8 +176,8 @@ export const collabApps = [
     id: "4",
     title: "Photoshop",
     icon: photoshop,
-    width: 34,
-    height: 34,
+    width: 36,
+    height: 40,
   },
   {
     id: "5",
@@ -193,8 +190,8 @@ export const collabApps = [
     id: "6",
     title: "Framer",
     icon: framer,
-    width: 26,
-    height: 34,
+    width: 30,
+    height: 38,
   },
   {
     id: "7",
@@ -241,19 +238,19 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const benefits =[
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Track Markets Instantly",
+    text: "Get real-time crypto prices, trends, and market movements at a glance.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Smarter Investment Decisions",
+    text: "Utilize advanced analysis tools and charts to make informed trading choices.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +258,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Secure Transactions",
+    text: "Buy, sell, and trade digital assets with confidence in a secure environment.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Fast & Reliable Execution",
+    text: "Enjoy seamless trading with high-speed order execution and minimal delays.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,20 +275,20 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Stay Updated",
+    text: "Receive daily market insights and crypto news to stay ahead of trends.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Learn & Grow",
+    text: "Access expert tutorials, guides, and resources to improve your trading skills.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-  },
+  }
 ];
 
 export const socials = [
