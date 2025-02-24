@@ -22,7 +22,7 @@ const Footer = () => {
   };
 
   return (
-    <Section crosses className="!px-0 !py-14 bg-[#0d0c13] text-gray-300">
+    <Section id="footer" crosses className="!px-0 !py-14 bg-[#0d0c13] text-gray-300">
       <div className="container max-w-7xl mx-auto px-12">
         
         <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mb-16">

@@ -54,10 +54,10 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block font-code text-3xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 
-                lg:text-lg lg:font-semibold lg:leading-6 ${item.onlyMobile ? "lg:hidden" : ""} 
-                ${item.url === pathname.hash ? "lg:text-n-1" : "lg:text-n-1/50"} 
-                lg:hover:text-n-1 xl:px-12`}
+                className={`block font-code text-3xl uppercase text-gray-200 transition-colors hover:text-gray-100 px-6 py-6 md:py-8 
+                  lg:text-lg lg:font-semibold lg:leading-6 ${item.onlyMobile ? "lg:hidden" : ""} 
+                  ${item.url === pathname.hash ? "lg:text-gray-200" : "lg:text-gray-200/50"} 
+                  lg:hover:text-gray-100 xl:px-12`}
               >
                 {item.title}
               </a>
@@ -67,9 +67,13 @@ const Header = () => {
         </nav>
 
         {/* Buttons */}
-        <Button className="hidden lg:flex px-6 py-3 text-lg" href="#login">
-          Sign in
-        </Button>
+        <a
+  href="https://cryp-video.vercel.app/"
+  className="block font-code text-3xl uppercase text-gray-300 transition-colors hover:text-gray-100 px-6 py-6 md:py-8 
+             lg:text-lg lg:font-semibold lg:leading-6 lg:text-gray-300/50 lg:hover:text-gray-300 xl:px-12"
+>
+  Insights & Tutorial
+</a>
 
         <Button className="ml-auto lg:hidden px-3" onClick={toggleNavigation}>
           <MenuSvg openNavigation={openNavigation} />

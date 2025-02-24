@@ -3,6 +3,13 @@ import { pricing } from "../constants";
 import Button from "./Button";
 
 const PricingList = () => {
+  const scrollToFooter = () => {
+    const footer = document.getElementById("footer");
+    if (footer) {
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
@@ -29,7 +36,7 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            onClick={item.price ? () => window.location.href = "/pricing" : scrollToFooter}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}

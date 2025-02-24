@@ -206,36 +206,36 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "Essential trading tools, real-time charts, crypto tutorials",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Access to real-time cryptocurrency charts for market tracking",
+      "Step-by-step tutorials on how to buy and trade crypto",
+      "Ability to explore the platform and its features without any cost"
     ],
-  },
+},
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Advanced trading tools, reward points, priority support",
+    price: "99.9",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
+      "Access to advanced trading tools for market analysis",
+      "Earn reward points on every trade to use for future transactions",
+      "Priority customer support for quick issue resolution"
+    ]
+},
+{
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Custom trading solutions, exclusive rewards, dedicated account manager",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Tailored trading solutions for high-volume traders",
+      "Exclusive rewards and bonuses for frequent traders",
+      "Dedicated account manager for personalized support"
     ],
-  },
+},
 ];
 
 export const benefits =[
