@@ -40,7 +40,7 @@ const Hero = () => {
           Experience the power of secure and efficient digital asset trading, 
           with real-time market insights and user-friendly platform 
           </p>
-            <Button href="https://crypto-accessnew.vercel.app/" white>
+            <Button href="https://http://localhost:5173/" white>
               Get started
             </Button>
         </div>
